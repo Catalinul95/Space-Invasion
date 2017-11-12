@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'kenvector_future';
+    src: url('../fonts/kenvector_future.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+}
+
+#backgroundLayer,
+#boardLayer {
+  display: block;
+  border: 1px solid #555;
+  position: absolute;
+  left: calc(50% - 250px);
+}
+
+#backgroundLayer {
+    background-image: url('../images/background.png');
+}
