@@ -16,7 +16,7 @@ class Collision extends Rectangle {
 					this.enemyBlastSound.cloneNode(true).play();
 					this.enemyBlastSound.pause();
 					enemyManager.enemies.splice(j, 1);
-					playerBulletsManager.bullets.splice(j, 1);
+					playerBulletsManager.bullets.splice(i, 1);
 					this.gameManager.updateScore(10);
 				}
 			}
