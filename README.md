@@ -1,2 +1,2 @@
 # Space-Invasion
-Simple 2D ppace chooter game made with Javascript using Canvas
+Simple 2D space shooter game made with Javascript using Canvas
